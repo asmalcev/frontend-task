@@ -1,0 +1,24 @@
+.closable {
+  margin-top: 24px;
+}
+.closable .ctrlBtn {
+  width: 16px;
+  height: 16px;
+  border: none;
+  border-color: #333;
+  border-width: 2px;
+  border-top-style: solid;
+  border-right-style: solid;
+  background-color: transparent;
+  cursor: pointer;
+  transform: rotate(135deg);
+  transition: 0.3s;
+  outline: none;
+  margin-left: 40px;
+}
+.closable .ctrlBtn.active {
+  transform: rotate(-45deg) translateY(70%);
+}
+.closable h3 {
+  margin-bottom: 12px;
+}

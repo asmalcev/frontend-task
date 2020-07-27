@@ -1,0 +1,28 @@
+.info-panel {
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 24px 36px;
+  box-shadow: 0 0 16px #0003;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.info-panel div > h2 {
+  margin-bottom: 24px;
+}
+.grey-text {
+  color: #78909C;
+}
+.info-panel div > .grey-text {
+  margin: 6px 0;
+}
+.link-btn {
+  padding: 10px 36px;
+  margin: 6px 0;
+  outline: none;
+  background-color: #311B92;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-size: 14px;
+  cursor: pointer;
+}
