@@ -1,5 +1,6 @@
 import React from 'react'
 import Closable from '../Closable/Closable'
+import ProgressChart from '../ProgressChart/ProgressChart'
 
 import './Panel.css'
 
@@ -34,6 +35,9 @@ export default function Panel(props) {
             </p>
           }
         />
+      </div>
+      <div>
+        <ProgressChart data={data.mainChart} id="mainChart"/>
       </div>
     </div>
   )
