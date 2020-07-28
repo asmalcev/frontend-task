@@ -37,7 +37,9 @@ export default function Panel(props) {
         />
       </div>
       <div>
-        <ProgressChart data={data.mainChart} id="mainChart"/>
+        <ProgressChart data={data.mainChart} id="mainChart" stroke="20" height="200"/>
+        <ProgressChart data={data.apartamentsChart} id="apartamentsChart"/>
+        <ProgressChart data={data.floorsChart} id="floorsChart"/>
       </div>
     </div>
   )

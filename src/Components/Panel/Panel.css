@@ -6,6 +6,9 @@
   display: grid;
   grid-template-columns: 40% 60%;
 }
+.info-panel > div:first-child {
+  padding-right: 36px;
+}
 .info-panel div > h2 {
   margin-bottom: 24px;
 }
